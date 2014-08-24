@@ -9,6 +9,7 @@
     "express": "3.4.8",
     "jade": "*",
     "oauth" : "0.9.12",
-    "request" : "2.40.0"
+    "request" : "2.40.0",
+    "leapjs":"0.6.2"
   }
 }

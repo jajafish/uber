@@ -26,7 +26,8 @@ if ('development' == app.get('env')) {
 require('./routes')
 
 
-app.get('/', routes.cabComing);
+app.get('/', routes.leapInit);
+app.get('/cabs', routes.cabComing);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
